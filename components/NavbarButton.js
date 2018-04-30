@@ -4,10 +4,12 @@ const NavbarButton = props => {
   const navbarElement = props.navbarElement;
 
   return (
-    <li key="{navbarElement.item}">
+    <div className="navbarButton">
       <a href="" link="{navbarElement.link}">
         {navbarElement.item}
       </a>
-    </li>
+    </div>
   );
 };
+
+export default NavbarButton;

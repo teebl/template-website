@@ -5,9 +5,9 @@ import NavbarContainer from "./NavbarContainer";
 export default class App extends Component {
   render() {
     return (
-      <div class="App">
+      <div className="App">
         <NavbarContainer />
-        <p>Hello, world!</p>
+        <p>Hello, word!</p>
       </div>
     );
   }

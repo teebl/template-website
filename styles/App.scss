@@ -1,3 +1,62 @@
-html {
+body {
+  margin: 0;
+}
+
+// Navbar Component
+// ====================================
+
+.navbar {
+  background-color: red;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  height: 60px;
+  display: inline-block;
+}
+
+.collapseButton {
+  float: right;
+  display: none;
+}
+
+.navbarButtons {
+  float: right;
+}
+
+.navbarButton {
+  display: inline-block;
   background-color: blue;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  //Navbar
+  .collapseButton {
+    display: inline-block;
+  }
+
+  .navbarButtons {
+    display: none;
+  }
+
+  .navbarButtonsDropdown {
+    display: grid;
+    width: 100%;
+    background-color: pink;
+  }
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
 }
