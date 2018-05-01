@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"background",
+				"background-color"
+			],
+			[
+				"Navbar",
+				"NavbarButton"
+			],
+			[
+				"Na",
+				"NavbarButton"
+			],
+			[
 				"Pa",
 				"parentDir"
 			]
@@ -12,45 +24,57 @@
 	"buffers":
 	[
 		{
-			"file": "webpack/webpack.dev.config.js",
-			"settings":
-			{
-				"buffer_size": 640,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 188,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "containers/App.js",
 			"settings":
 			{
-				"buffer_size": 169,
+				"buffer_size": 431,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "package.json",
+			"file": "components/Hours.js",
 			"settings":
 			{
-				"buffer_size": 1427,
-				"line_ending": "Unix"
+				"buffer_size": 642,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "import React, { Component } from 'react';"
 			}
 		},
 		{
-			"file": ".gitignore",
+			"file": "components/Locations.js",
 			"settings":
 			{
-				"buffer_size": 458,
+				"buffer_size": 522,
 				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "styles/App.scss",
+			"settings":
+			{
+				"buffer_size": 2198,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "components/Navbar.js",
+			"settings":
+			{
+				"buffer_size": 1728,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "import React, { Component } from 'react';"
+			}
+		},
+		{
+			"file": "containers/NavbarContainer.js",
+			"settings":
+			{
+				"buffer_size": 881,
 				"line_ending": "Windows"
 			}
 		}
@@ -62,17 +86,13 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 588.0,
 		"last_filter": "pac",
 		"selected_items":
 		[
 			[
 				"pac",
-				"Package Control: List Packages"
-			],
-			[
-				"insta",
-				"Package Control: Install Package"
+				"Package Control: Disable Package"
 			],
 			[
 				"Package Control: ",
@@ -83,7 +103,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 428.0
+		"width": 624.0
 	},
 	"console":
 	{
@@ -104,23 +124,32 @@
 	"expanded_folders":
 	[
 		"/C/git/template-website",
+		"/C/git/template-website/components",
 		"/C/git/template-website/containers",
-		"/C/git/template-website/styles"
+		"/C/git/template-website/resources",
+		"/C/git/template-website/styles",
+		"/C/git/template-website/webpack"
 	],
 	"file_history":
 	[
-		"/C/git/template-website/index.html",
-		"/C/git/template-website/template-website.sublime-project",
-		"/C/git/template-website/index.js",
-		"/C/git/template-website/containers/App.js",
-		"/C/git/template-website/package.json",
+		"/C/git/template-website/components/Hero.js",
+		"/C/Users/Trevor/AppData/Roaming/Sublime Text 3/Packages/JsPrettier/JsPrettier.sublime-settings",
 		"/C/git/template-website/README.md",
+		"/C/git/template-website/webpack/webpack.dev.config.js",
+		"/C/git/template-website/components/Test.js",
+		"/C/git/template-website/containers/NavbarContainer.js",
+		"/C/git/template-website/components/NavbarButton.js",
+		"/C/git/template-website/template-website.sublime-project",
+		"/C/git/template-website/index.html",
+		"/C/git/template-website/index.js",
+		"/C/git/template-website/package.json",
 		"/C/git/template-website/styles/App.scss",
+		"/C/git/template-website/containers/App.js",
 		"/C/git/how-to-npm/package-lock.json"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 60.0
 	},
 	"find_in_files":
 	{
@@ -134,6 +163,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Schedule",
 			"}]\n"
 		],
 		"highlight": true,
@@ -157,27 +187,30 @@
 			[
 				{
 					"buffer": 0,
-					"file": "webpack/webpack.dev.config.js",
+					"file": "containers/App.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 640,
+						"buffer_size": 431,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								640,
-								640
+								246,
+								246
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+							"SL.38.region_keys":
+							[
+							],
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 35.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -185,82 +218,59 @@
 				},
 				{
 					"buffer": 1,
-					"file": "index.html",
+					"file": "components/Hours.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 188,
+						"buffer_size": 642,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								188,
-								188
+								443,
+								443
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"SL.91.region_keys":
+							[
+							],
+							"auto_name": "import React, { Component } from 'react';",
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 245.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "containers/App.js",
+					"file": "components/Locations.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 169,
+						"buffer_size": 522,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								169,
-								169
+								502,
+								491
 							]
 						],
 						"settings":
 						{
+							"SL.92.region_keys":
+							[
+							],
 							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "package.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1427,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								943,
-								943
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -270,31 +280,96 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": ".gitignore",
+					"buffer": 3,
+					"file": "styles/App.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 458,
+						"buffer_size": 2198,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								458,
-								458
+								1495,
+								1495
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1744.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "components/Navbar.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1728,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								732,
+								732
+							]
+						],
+						"settings":
+						{
+							"auto_name": "import React, { Component } from 'react';",
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 93.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "containers/NavbarContainer.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 881,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								483,
+								483
+							]
+						],
+						"settings":
+						{
+							"SL.53.region_keys":
+							[
+							],
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
@@ -302,11 +377,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 35.0
 	},
 	"input":
 	{
-		"height": 35.0
+		"height": 53.0
 	},
 	"layout":
 	{
@@ -331,6 +406,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
@@ -339,7 +418,7 @@
 	"project": "template-website.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -377,7 +456,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 175.0,
+	"side_bar_width": 357.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
