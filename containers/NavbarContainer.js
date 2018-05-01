@@ -12,6 +12,14 @@ export default class NavbarContainer extends Component {
         { item: "NavLink2", link: "linkTest2" },
         { item: "NavLink3", link: "linkTest3" },
         { item: "NavLink4", link: "linkTest4" }
+      ],
+      blocks: [
+        {
+          type: "",
+          title: "",
+          image: "",
+          text: ""
+        }
       ]
     };
   }

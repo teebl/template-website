@@ -1,18 +1,16 @@
 import React from "react";
 
 function Icon(props) {
-  const icon = props.icon;
-
-  if (icon.link !== "") {
+  if (props.link !== "") {
     return (
-      <a className="Icon" href={icon.link} title={icon.type}>
+      <a className="Icon" href={props.link}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width={props.size}
           height={props.size}
           viewBox="0 0 512 512"
         >
-          <path d={icon.svg} />
+          <path d={props.icon} />
         </svg>
       </a>
     );
@@ -24,14 +22,15 @@ function Icon(props) {
         height={props.size}
         viewBox="0 0 512 512"
       >
-        <path d={icon.svg} />
+        <path d={props.icon} />
       </svg>
     );
   }
 }
 
 Icon.defaultProps = {
-  size: "60"
+  size: "60",
+  link: ""
 };
 
 export default Icon;
