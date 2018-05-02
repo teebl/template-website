@@ -1,4 +1,5 @@
 import React from "react";
+import { ICONS } from "../resources/ICONS.js";
 
 function Icon(props) {
   if (props.link !== "") {
@@ -10,7 +11,7 @@ function Icon(props) {
           height={props.size}
           viewBox="0 0 512 512"
         >
-          <path d={props.icon} />
+          <path d={ICONS.EMAIL} />
         </svg>
       </a>
     );
@@ -22,7 +23,7 @@ function Icon(props) {
         height={props.size}
         viewBox="0 0 512 512"
       >
-        <path d={props.icon} />
+        <path d={ICONS.EMAIL} />
       </svg>
     );
   }
