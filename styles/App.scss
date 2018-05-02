@@ -21,6 +21,7 @@ body {
   top: 0;
   height: 60px;
   display: inline-block;
+  z-index: 99;
 }
 
 .collapseButton {
@@ -151,7 +152,7 @@ body {
 }
 
 /* Landscape phone to portrait tablet */
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
   //Navbar
   .collapseButton {
     display: inline-block;

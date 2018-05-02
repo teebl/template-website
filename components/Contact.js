@@ -32,8 +32,8 @@ Contact.defaultProps = {
         "Ottawa, ON, Canada"
       ],
       contactMethods: [
-        { type: "phone", id: "(555)-555-5555" },
-        { type: "email", id: "sampleemail@website.com" }
+        { type: "PHONE", id: "(555)-555-5555" },
+        { type: "EMAIL", id: "sampleemail@website.com" }
       ]
     },
     {
@@ -45,7 +45,11 @@ Contact.defaultProps = {
       ],
       contactMethods: [
         { type: "PHONE", id: "(555)-555-5555" },
-        { type: "EMAIL", id: "sampleemail@website.com" }
+        {
+          type: "EMAIL",
+          id: "sampleemail@website.com",
+          link: "mailto:sampleemail@website.com"
+        }
       ]
     }
   ]

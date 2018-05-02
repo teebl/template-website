@@ -45,7 +45,7 @@ export default class Navbar extends Component {
             />
           </svg>
           <div className="collapseButton" onClick={this.dropdownExpand}>
-            <Icon icon={ICONS.BARS} />
+            <Icon type="BARS" />
           </div>
           <div className={"navbarButtons " + dropdownClass}>{navItems}</div>
         </div>
