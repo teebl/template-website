@@ -3,7 +3,7 @@ import "../styles/App.scss";
 import NavbarContainer from "./NavbarContainer";
 import Hero from "../components/Hero";
 import Hours from "../components/Hours";
-import Locations from "../components/Locations";
+import Contact from "../components/Contact";
 export default class App extends Component {
   render() {
     return (
@@ -11,7 +11,7 @@ export default class App extends Component {
         <NavbarContainer />
         <Hero />
         <Hours />
-        <Locations />
+        <Contact />
       </div>
     );
   }
