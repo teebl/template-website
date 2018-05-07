@@ -12,7 +12,6 @@ export default class Contact extends Component {
       return <LocationInfo locationInfo={i} />;
     });
 
-    console.log(this.props.locations[0].address);
     return (
       <div className="contact">
         <h2>Contact</h2>

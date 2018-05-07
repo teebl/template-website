@@ -4,6 +4,8 @@ import NavbarContainer from "./NavbarContainer";
 import Hero from "../components/Hero";
 import Hours from "../components/Hours";
 import Contact from "../components/Contact";
+import About from "../components/About";
+
 export default class App extends Component {
   render() {
     return (
@@ -12,6 +14,7 @@ export default class App extends Component {
         <Hero />
         <Hours />
         <Contact />
+        <About />
       </div>
     );
   }

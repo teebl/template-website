@@ -36,7 +36,6 @@ Hero.defaultProps = {
   },
 
   heroStyle: {
-    backgroundColor: "blue",
     backgroundImage: `require("resources/images/coffee_hero.jpg")`
   }
 };
